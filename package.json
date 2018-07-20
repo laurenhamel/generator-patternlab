@@ -1,0 +1,22 @@
+{
+  "name": "generator-patternlab",
+  "version": "1.0.0",
+  "description": "A Yeoman generator for Pattern Lab",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Lauren Hamel",
+  "github": "github:laurenhamel/generator-patternlab",
+  "license": "MIT",
+  "keywords": [
+    "yeoman-generator",
+    "pattern-lab"
+  ],
+  "dependencies": {
+    "generator-npm-init": "^1.4.0",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.2"
+  },
+  "files": [
+    "generators"
+  ]
+}
