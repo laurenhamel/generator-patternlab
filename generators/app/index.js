@@ -45,7 +45,15 @@ module.exports = class extends Generator {
   prompting() { }
   
   // Write to the project.
-  writing() { }
+  writing() {
+  
+    // Copy the templates.
+    this.fs.copy(
+      this.templatePath('_secret.example.json'),
+      this.destinationPath('secret.example.json')
+    );
+  
+  }
   
   // Generate the project.
   default() { 
