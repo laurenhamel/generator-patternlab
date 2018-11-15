@@ -18,6 +18,7 @@
     "yosay": "^2.0.2"
   },
   "files": [
-    "generators"
+    "generators",
+    "lib"
   ]
 }
