@@ -20,7 +20,7 @@ module.exports = class extends Generator {
     // Copy the templates.
     this.fs.copy(
       this.templatePath('_js'),
-      this.destinationPath('source/js')
+      this.destinationPath('src/js')
     );
     
   }

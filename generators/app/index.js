@@ -90,9 +90,6 @@ module.exports = class extends Generator {
     // Create pattern lab structure.
     this.composeWith(require.resolve('../patternlab'));
     
-    // Create styleguide structure.
-    this.composeWith(require.resolve('../styleguide'));
-    
     // Create scripts and stylesheets.
     this.composeWith(require.resolve('../js'));
     this.composeWith(require.resolve('../scss'));
@@ -115,9 +112,6 @@ module.exports = class extends Generator {
   
   // Done.
   end() {
-    
-    // Automatically initialize Grunt so that the user doesn't have to.
-    this.spawnCommand('grunt', ['init']);
     
     // Alert the user that the generator is done.
     this.log();

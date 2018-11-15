@@ -30,7 +30,7 @@ module.exports = class extends Generator {
     );
     this.fs.copy(
       this.templatePath('_annotations'),
-      this.destinationPath('source/_annotations')
+      this.destinationPath('src/_annotations')
     );
     this.fs.copy(
       this.templatePath('_data'),
@@ -38,15 +38,15 @@ module.exports = class extends Generator {
     );
     this.fs.copy(
       this.templatePath('_extensions'),
-      this.destinationPath('source/_extensions')
+      this.destinationPath('src/_extensions')
     );
     this.fs.copy(
       this.templatePath('_meta'),
-      this.destinationPath('source/_meta')
+      this.destinationPath('src/_meta')
     );
     this.fs.copy(
       this.templatePath('_patterns'),
-      this.destinationPath('source/_patterns')
+      this.destinationPath('src/_patterns')
     );
     
   }
@@ -56,10 +56,10 @@ module.exports = class extends Generator {
     
     // Build a list of folders that may contain dot files.
     const dotFolders = [
-      this.destinationPath('source/_annotations'),
-      this.destinationPath('source/_data'),
-      this.destinationPath('source/_meta'),
-      this.destinationPath('source/_patterns')
+      this.destinationPath('src/_annotations'),
+      this.destinationPath('src/_data'),
+      this.destinationPath('src/_meta'),
+      this.destinationPath('src/_patterns')
     ];
     
     // Rename all dot files.

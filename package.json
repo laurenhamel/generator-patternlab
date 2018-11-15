@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {},
   "author": "Lauren Hamel",
-  "github": "github:laurenhamel/generator-patternlab",
+  "github": "github:emory-libraries/generator-patternlab",
   "license": "MIT",
   "keywords": [
     "yeoman-generator",
