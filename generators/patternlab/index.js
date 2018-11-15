@@ -34,7 +34,7 @@ module.exports = class extends Generator {
     );
     this.fs.copy(
       this.templatePath('_data'),
-      this.destinationPath('source/_data')
+      this.destinationPath('src/_data')
     );
     this.fs.copy(
       this.templatePath('_extensions'),
