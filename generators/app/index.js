@@ -27,7 +27,7 @@ module.exports = class extends Generator {
     
     // Also, read the package template.
     const temp = this.fs.readJSON(this.templatePath('_package.json'), {});
-    
+  
     // Start building project properties.
     this.props = extend({}, temp, this.pkg);
     
@@ -100,9 +100,9 @@ module.exports = class extends Generator {
     
     // Create gruntfile.
     this.composeWith(require.resolve('../grunt'));
-    
+  
     // Repackage the `package.json` file.
-    this.fs.writeJSON(this.destinationPath('package.json'), this.props);
+    this.fs.extendJSON(this.destinationPath('package.json'), this.props);
     
   }
   
