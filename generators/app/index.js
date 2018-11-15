@@ -52,6 +52,10 @@ module.exports = class extends Generator {
       this.templatePath('_secret.example.json'),
       this.destinationPath('secret.example.json')
     );
+    this.fs.copy(
+      this.templatePath('_README.md'),
+      this.destinationPath('README.md')
+    );
   
   }
   
