@@ -16,7 +16,7 @@ module.exports = class extends Generator {
     super(args, options);
     
     // Extend the context.
-    this.fs = extend(this.fs, require('../../scripts/fs.js')(this));
+    this.fs = extend(this.fs, require('../../lib/fs.js')(this));
 
   }
 
