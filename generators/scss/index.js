@@ -2,6 +2,9 @@
 
 // Require dependencies.
 const Generator = require('yeoman-generator');
+const path = require('path');
+const _ = require('lodash');
+const extend = _.merge;
 
 // Build the generator.
 module.exports = class extends Generator {
