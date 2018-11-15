@@ -13,6 +13,7 @@
   ],
   "dependencies": {
     "generator-npm-init": "^1.4.0",
+    "lodash": "^4.17.11",
     "yeoman-generator": "^1.1.1",
     "yosay": "^2.0.2"
   },
