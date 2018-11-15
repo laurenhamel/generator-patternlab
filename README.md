@@ -9,8 +9,10 @@ This generator uses [Yeoman][Yeoman] to scaffold a boilerplate [Pattern Lab][Pat
 ## Installation
 
 - Install Yeoman `npm i -g yo` (one-time global installation).
-- Install the generator `npm i -g laurenhamel/generator-patternlab` (one-time global installation)
-- Create and open your project folder `mkdir <your_project> && cd <your_project>`
+- Clone the repo to your system `npm clone https://github.com/laurenhamel/generator-patternlab`
+- Open a terminal and `cd` to the location where you cloned the repo
+- Install the generator globally with `npm link`
+- Create and open a folder for your new project `mkdir <your_project> && cd <your_project>`
 - Scaffold your new project `yo patternlab`
 
 ## Getting Started
